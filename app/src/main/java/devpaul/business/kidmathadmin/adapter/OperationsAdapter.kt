@@ -29,7 +29,7 @@ class OperationsAdapter (private val context: Context, private val operationsLis
         holder.textultimoacceso.text = operationsList[position].lastTimePlayed
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(context,"Usuario : "+operationsList[position].name,Toast.LENGTH_LONG).show()
+          /*  Toast.makeText(context,"Usuario : "+operationsList[position].name,Toast.LENGTH_LONG).show()*/
         }
     }
 

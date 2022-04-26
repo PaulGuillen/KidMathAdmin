@@ -28,7 +28,7 @@ class UserAdapter  (private val context: Context, private val operationsList: Mu
         holder.textRol.text = operationsList[position].rol
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(context, "Usuario : " + operationsList[position].name, Toast.LENGTH_LONG).show()
+     /*       Toast.makeText(context, "Usuario : " + operationsList[position].name, Toast.LENGTH_LONG).show()*/
         }
     }
 
