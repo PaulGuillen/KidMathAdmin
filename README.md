@@ -5,7 +5,7 @@ _En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacio
 
 ### Pre-requisitos 📋
 
-_Tener instalado Android Studio, conocer sobre kotlin, google maps, mercado pago, paypal, consultas a servidor Retrofit2_
+_Tener instalado Android Studio, conocer sobre kotlin, firebase uth , firebase store_
 
 ```
 . MinSdk =  24
