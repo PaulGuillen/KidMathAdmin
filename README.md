@@ -46,6 +46,11 @@ _Como se observó el alumno marco aranda fue el sujeto de prueba para esta aplic
 
 ## Video 📄
 
+_Mostraremos como funciona el juego rápido, en este caso en la operación resta._
+
+https://user-images.githubusercontent.com/43099030/165642862-73f51616-0d49-49ae-afb6-4ae80a0c88ff.mp4
+
+
 
 ## Autor ✒️
 
