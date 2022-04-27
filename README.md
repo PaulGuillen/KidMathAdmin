@@ -42,6 +42,7 @@ _*Observaremos el proceso de visualizacion de ambas aplicaciones._
   <img src="https://i.postimg.cc/hGpdJN44/tercera-vista.png"/>
 </p>
 
+_Como se observó el alumno marco aranda fue el sujeto de prueba para esta aplicación_
 
 ## Autor ✒️
 
