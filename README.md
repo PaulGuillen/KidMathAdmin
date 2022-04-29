@@ -1,6 +1,6 @@
 # KidMathAdmin
 
-_En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacion [Math4kids](https://github.com/PaulGuillen/KidMathKotlin), ádemas de la visualización de los alumnos registrados._
+_En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacion [Math4kids](https://github.com/PaulGuillen/KidMathKotlin), además de la visualización de los alumnos registrados._
 
 
 ### Pre-requisitos 📋
