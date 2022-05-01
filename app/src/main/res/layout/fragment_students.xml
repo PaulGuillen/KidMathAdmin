@@ -15,19 +15,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/monserratalternates_bold"
-                android:text="Registro"
-                android:textColor="#DFDFDF"
-                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:paddingStart="5dp"
                 android:layout_gravity="center"
                 android:fontFamily="@font/monserratalternates_bold"
                 android:text="Alumnos"
@@ -35,6 +26,20 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_salir"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:backgroundTint="@color/red_primary_dark"
+                android:fontFamily="@font/monserratalternates_bold"
+                android:padding="20dp"
+                android:text="Salir"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
 
 
         </androidx.appcompat.widget.Toolbar>
