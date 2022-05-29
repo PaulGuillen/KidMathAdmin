@@ -229,7 +229,7 @@
                     android:textColor="@color/white"
                     android:textSize="13sp"
                     android:textStyle="bold"
-                    android:text="Proyecto unviersitario | Realizado por Juan Surco" />
+                    android:text="Realizado por Paul Guillen" />
 
             </LinearLayout>
 

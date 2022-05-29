@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="devpaul.business.kidmathadmin">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,16 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KidMathAdmin">
         <activity
-            android:name=".RegisterActivity"
-            android:windowSoftInputMode="stateHidden"
+            android:name=".activities.news.NewsActivity"
             android:exported="false" />
+        <activity
+            android:name=".activities.userdetail.StudentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.operations.MulStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.operations.DivStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.operations.ResStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.operations.SumStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name="devpaul.business.kidmathadmin.activities.operations.operationsdetail.ViewHistoricalStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="stateHidden"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/colorGrey"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineuno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="105dp" />
+
+        <TextView
+            android:id="@+id/text_base"
+            android:layout_width="140dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/monserratalternates_bold"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/colorGrey"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            tools:text="Ultimo puntaje"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintuno"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorGrey"
+            app:layout_constraintStart_toEndOf="@+id/guidelineuno"
+            app:layout_constraintTop_toBottomOf="@+id/text_base">
+
+            <TextView
+                android:id="@+id/textInicial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserratalternates_bold"
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="RtlSymmetry"
+                tools:text="Alumno : " />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/textInicial"
+                app:layout_constraintStart_toEndOf="@id/textInicial"
+                app:layout_constraintTop_toTopOf="@id/textInicial"
+                tools:text="Nombre" />
+
+            <TextView
+                android:id="@+id/text_lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/text_name"
+                app:layout_constraintStart_toEndOf="@id/text_name"
+                app:layout_constraintTop_toTopOf="@id/text_name"
+                tools:text="Apellido" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintdos"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorGrey"
+            app:layout_constraintStart_toEndOf="@+id/guidelineuno"
+            app:layout_constraintTop_toBottomOf="@+id/constraintuno">
+
+            <TextView
+                android:id="@+id/textInicialSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserratalternates_bold"
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry"
+                tools:text="Ultimo intento :" />
+
+            <TextView
+                android:id="@+id/text_lastTry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/textInicialSecond"
+                app:layout_constraintStart_toEndOf="@id/textInicialSecond"
+                app:layout_constraintTop_toTopOf="@id/textInicialSecond"
+                tools:text="Ultimo intento" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constrainttres"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorGrey"
+            app:layout_constraintStart_toEndOf="@+id/guidelineuno"
+            app:layout_constraintTop_toBottomOf="@+id/constraintdos">
+
+            <TextView
+                android:id="@+id/textInicialThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserratalternates_bold"
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry"
+                tools:text="Mejor puntaje :" />
+
+
+            <TextView
+                android:id="@+id/text_bestPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/textInicialThird"
+                app:layout_constraintStart_toEndOf="@id/textInicialThird"
+                app:layout_constraintTop_toTopOf="@id/textInicialThird"
+                tools:text="Mejor puntaje" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintcuatro"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/colorGrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrainttres">
+
+            <TextView
+                android:id="@+id/text_lastimeplayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:paddingBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry"
+                tools:text="Ultima" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/monserratalternates_bold"
+                app:layout_constraintEnd_toStartOf="@+id/text_lastimeplayed"
+                app:layout_constraintTop_toTopOf="@+id/text_lastimeplayed"
+                tools:ignore="RtlSymmetry"
+                tools:text="Ultima vez jugado: " />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

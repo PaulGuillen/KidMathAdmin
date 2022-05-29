@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KidMathAdmin</string>
+    <string name="app_name">MathAdmin</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="resta">Resta</string>
@@ -7,4 +7,8 @@
     <string name="multi">Multi..</string>
     <string name="divisi_n">División</string>
     <string name="alumnos">Alumnos</string>
+    <string name="noticias">Noticias</string>
+    <string name="resultados">Resultados</string>
+    <string name="no_connection_found">No estas conectado a internet!</string>
+    <string name="este_alumno_no_tiene_un_historial_que_mostrar">Este alumno no tiene un historial que mostrar</string>
 </resources>

@@ -68,7 +68,7 @@
             app:layout_constraintTop_toTopOf="@id/text_name" />
 
         <TextView
-            android:id="@+id/textEmail"
+            android:id="@+id/textPuntaje"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/monserratalternates_bold"
@@ -89,9 +89,9 @@
             android:fontFamily="@font/monserratalternates_regular"
             android:text="correo"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/textEmail"
-            app:layout_constraintStart_toEndOf="@id/textEmail"
-            app:layout_constraintTop_toTopOf="@id/textEmail" />
+            app:layout_constraintBottom_toBottomOf="@+id/textPuntaje"
+            app:layout_constraintStart_toEndOf="@id/textPuntaje"
+            app:layout_constraintTop_toTopOf="@id/textPuntaje" />
 
         <TextView
             android:id="@+id/textRol"
@@ -103,7 +103,7 @@
             android:paddingBottom="10dp"
             android:text="Rol :"
             app:layout_constraintStart_toStartOf="@id/guidelineuno"
-            app:layout_constraintTop_toBottomOf="@id/textEmail"
+            app:layout_constraintTop_toBottomOf="@id/textPuntaje"
             tools:ignore="RtlSymmetry" />
 
 

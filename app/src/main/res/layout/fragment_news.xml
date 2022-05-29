@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.NewsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ActionBarStyle">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:text="Subir"
+                android:textColor="@color/light_blue_primary_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/monserratalternates_regular"
+                android:paddingStart="5dp"
+                android:text="Noticias"
+                android:textColor="@color/blue_grey_primary_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:fontFamily="@font/monserratalternates_bold"
+        android:textSize="18sp"
+        android:hint="Título"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoComplete"
+        android:autofillHints="no" />
+
+    <EditText
+        android:fontFamily="@font/monserratalternates_bold"
+        android:textSize="18sp"
+        android:hint="Descripción"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="15dp"
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoComplete"
+        android:autofillHints="no"/>
+
+    <Button
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monserratalternates_bold"
+        android:backgroundTint="@color/light_blue_primary_dark"
+        android:layout_gravity="center"
+        android:text="Seleccionar Imagen"
+        android:id="@+id/btn_subir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+
+        <Button
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/monserratalternates_bold"
+            android:backgroundTint="@color/light_blue_primary_dark"
+            android:layout_gravity="center"
+            android:text="Ver noticias"
+            android:id="@+id/btn_ver_noticias"
+            android:layout_marginBottom="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

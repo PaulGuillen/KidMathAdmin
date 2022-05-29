@@ -3,6 +3,7 @@ package devpaul.business.kidmathadmin
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.ActivityInfo
+import android.os.Build
 import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
@@ -13,33 +14,38 @@ import java.util.*
 
 class HomeActivity : AppCompatActivity() {
 
-    val sumFragment = SumFragment()
-    val restFragment = RestFragment()
-    val multFragment = MultFragment()
-    val divFragment = DivFragment()
+    val operationsFragment = OperationsFragment()
+    val newsFragment = NewsFragment()
     val studFragment = StudentsFragment()
 
     @SuppressLint("SourceLockedOrientationActivity", "WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        replaceFragment(sumFragment)
+        replaceFragment(operationsFragment)
         //desactivar rotacion pantalla
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.ic_suma -> replaceFragment(sumFragment)
-                R.id.ic_resta -> replaceFragment(restFragment)
-                R.id.ic_multiplicacion -> replaceFragment(multFragment)
-                R.id.ic_division -> replaceFragment(divFragment)
+                R.id.ic_operaciones -> replaceFragment(operationsFragment)
+                R.id.ic_noticias -> replaceFragment(newsFragment)
                 R.id.ic_alumnos -> replaceFragment(studFragment)
             }
              true
 
         }
 
+    }
+
+    fun recreateFragment(fragment : Fragment){
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
+            supportFragmentManager.beginTransaction().detach(fragment).commitNow()
+            supportFragmentManager.beginTransaction().attach(fragment).commitNow()
+        }else{
+            supportFragmentManager.beginTransaction().detach(fragment).attach(fragment).commitNow()
+        }
     }
 
 

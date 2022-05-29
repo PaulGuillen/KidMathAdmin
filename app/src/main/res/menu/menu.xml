@@ -2,25 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/ic_suma"
+        android:id="@+id/ic_operaciones"
         android:icon="@drawable/suma_icon"
-        android:title="@string/suma"/>
+        android:title="@string/resultados"/>
 
     <item
-        android:id="@+id/ic_resta"
-        android:icon="@drawable/resta_icon"
-        android:title="@string/resta"/>
-
-    <item
-        android:id="@+id/ic_multiplicacion"
-        android:icon="@drawable/multiplicacion_icon"
-        android:title="@string/multi"/>
-
-
-    <item
-        android:id="@+id/ic_division"
-        android:icon="@drawable/division_icon"
-        android:title="@string/divisi_n"/>
+        android:id="@+id/ic_noticias"
+        android:icon="@drawable/ic_newspaper"
+        android:title="@string/noticias"/>
 
     <item
         android:id="@+id/ic_alumnos"

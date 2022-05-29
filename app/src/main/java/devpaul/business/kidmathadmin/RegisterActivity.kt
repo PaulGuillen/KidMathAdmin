@@ -104,9 +104,15 @@ class RegisterActivity : AppCompatActivity() {
                                 .document(uid)
                                 .set(user)
                                 .addOnSuccessListener {
+                                    progressDialog?.dismiss()
                                     Toast.makeText(baseContext, "Registro exitoso", Toast.LENGTH_SHORT).show()
                                     goToLoginActivity()
-                                    progressDialog?.dismiss()
+                                    val usesRef = db.collection("Users").document(auth.uid!!)
+                                    usesRef
+                                        .update("userId", auth.uid)
+                                        .addOnSuccessListener { Log.d(TAG, "DocumentSnapshot successfully updated!") }
+                                        .addOnFailureListener { e -> Log.w(TAG, "Error updating document", e) }
+
                                 }
                                 .addOnFailureListener { e ->
                                     progressDialog?.dismiss()
