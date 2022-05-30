@@ -27,19 +27,13 @@ _Tener instalado Android Studio, conocer sobre kotlin, firebase uth , firebase s
 _Como se puede apreciar en las vistas, podemos observar las 4 primeras imagenes muestran los resultados por alumno del juego "Piensa Rapido" de la aplicación Math4kids, en la última imagen se aprecia el listado de alumnos registrados en la aplicación MathKidAdmin_
 
 <p align="center">
- <img src="https://i.postimg.cc/52BjZTZ9/Screenshot-1651007035.png"/>
- <img src="https://i.postimg.cc/DZZZ4Zmm/Screenshot-1651007038.png"/>
-  <img src="https://i.postimg.cc/yY9F8fwt/Screenshot-1651007040.png"/>
- <img src="https://i.postimg.cc/gJnhF4VM/Screenshot-1651007042.png"/>
- <img src="https://i.postimg.cc/qM83TNKd/Screenshot-1651007043.png"/>
+
 </p>
 
 _*Observaremos el proceso de visualizacion de ambas aplicaciones._
 
 <p align="center">
-  <img src="https://i.postimg.cc/rmjQwf35/Primera-vista.png"/>
-  <img src="https://i.postimg.cc/W42Z1svf/segunda-vista.png"/>
-  <img src="https://i.postimg.cc/hGpdJN44/tercera-vista.png"/>
+
 </p>
 
 _Como se observó el alumno marco aranda fue el sujeto de prueba para esta aplicación_
