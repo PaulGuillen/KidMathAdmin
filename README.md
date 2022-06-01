@@ -32,7 +32,7 @@ _En este panel de imágenes se muestra los resultados por alumnos registrados, �
 
 ---
 
-_En este panel de imágenes se muestra las estaditicas por operación claramente filtrado por operacion realizada, que pasa si en una operación el alumno no registra ningún avance, les muestra un mensaje al profesor.._
+_En este panel de imágenes se muestra las estaditicas por operación claramente filtrado por operacion realizada, que pasa si en una operación el alumno no registra ningún avance, les muestra un mensaje al profesor._
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/43099030/171466833-ea9ad8db-674f-47e8-bb64-cdff8ff2bc63.png"/>
