@@ -1,10 +1,10 @@
 # KidMathAdmin
 
-_En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacion [Math4kids](https://github.com/PaulGuillen/KidMathKotlin), además de la visualización de los alumnos registrados._
+_En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacion [Math4kids](https://github.com/PaulGuillen/KidMathKotlin), además de la visualización de los alumnos registrados con su respectivo gráfico de pastel para proceder analizar los resultados de los alumnos._
 
 ## Comenzando 🚀
 
-_Este proyecto es parte del otro proyecto llamado Math4Kids, para ir entrando en el tema, la idea es la siguiente app A conectado a firebase store, la app B consulta la información de firebase store._
+_Este proyecto es parte del otro proyecto llamado Math4Kids, para ir entrando en el tema, la idea es la siguiente app A conectado a firebase store, la app B consulta la información de firebase store, database realtime, storage._
 
 <p align="center">
  <img src="https://i.postimg.cc/657WNgGJ/representacion.png"/>
