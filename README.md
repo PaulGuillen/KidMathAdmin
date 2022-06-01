@@ -40,7 +40,21 @@ _Como se observó el alumno marco aranda fue el sujeto de prueba para esta aplic
 
 ## Video 📄
 
+_*Mostrando resultado por alumno e historial de las operaciones realizadas*_
+
+https://user-images.githubusercontent.com/43099030/171458765-f4d11f11-051b-4515-89c2-5ce02d8fb768.mp4
+
+
+_*Agregando noticias desde la app Admin y mostrando en la de los alumnos*_
+
+
+https://user-images.githubusercontent.com/43099030/171460255-30a01eb5-119b-4536-bccd-c0e65c2be0f9.mp4
+
+
 
 ## Autor ✒️
+
+
+
 
 * **Paul Guillen Acuña** - *Mi Repositorio* - [PaulGuillen](https://github.com/PaulGuillen?tab=repositories)
