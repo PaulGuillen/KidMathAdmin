@@ -39,7 +39,6 @@ _En este panel de imagenes se muestra las estaditicas por operacion claramente f
 </p>
 
 ---
-_Como se observó el alumno marco aranda fue el sujeto de prueba para esta aplicación_
 
 ## Video 📄
 
