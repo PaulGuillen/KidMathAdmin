@@ -24,18 +24,21 @@ _Tener instalado Android Studio, conocer sobre kotlin, firebase uth , firebase s
 
 ## Ejecutando los diseños ⚙️
 
-_Como se puede apreciar en las vistas, podemos observar las 4 primeras imagenes muestran los resultados por alumno del juego "Piensa Rapido" de la aplicación Math4kids, en la última imagen se aprecia el listado de alumnos registrados en la aplicación MathKidAdmin_
+_En este panel de imágenes se muestra los resultados por alumnos registrados, ádemas de el historial por alumnos registrado._
 
 <p align="center">
-
+ <img src="https://user-images.githubusercontent.com/43099030/171466601-b8c95cf1-275e-4e23-b580-c50701aab6b5.png"/>
 </p>
 
-_*Observaremos el proceso de visualizacion de ambas aplicaciones._
+---
+
+_En este panel de imagenes se muestra las estaditicas por operacion claramente filtrado por operacion realizada, que pasa si en una operacion el alumno no registra ningún avance, les muestra un mensaje al profesor.._
 
 <p align="center">
-
+ <img src="https://user-images.githubusercontent.com/43099030/171466833-ea9ad8db-674f-47e8-bb64-cdff8ff2bc63.png"/>
 </p>
 
+---
 _Como se observó el alumno marco aranda fue el sujeto de prueba para esta aplicación_
 
 ## Video 📄
