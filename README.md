@@ -24,7 +24,7 @@ _Tener instalado Android Studio, conocer sobre kotlin, firebase uth , firebase s
 
 ## Ejecutando los diseños ⚙️
 
-_En este panel de imágenes se muestra los resultados por alumnos registrados, ádemas de el historial por alumnos registrado._
+_En este panel de imágenes se muestra los resultados por alumnos registrados, ádemas de el historial por alumno registrado._
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/43099030/171466601-b8c95cf1-275e-4e23-b580-c50701aab6b5.png"/>
@@ -32,7 +32,7 @@ _En este panel de imágenes se muestra los resultados por alumnos registrados, �
 
 ---
 
-_En este panel de imagenes se muestra las estaditicas por operacion claramente filtrado por operacion realizada, que pasa si en una operacion el alumno no registra ningún avance, les muestra un mensaje al profesor.._
+_En este panel de imagenes se muestra las estaditicas por operacion claramente filtrado por operacion realizada, que pasa si en una operación el alumno no registra ningún avance, les muestra un mensaje al profesor.._
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/43099030/171466833-ea9ad8db-674f-47e8-bb64-cdff8ff2bc63.png"/>
