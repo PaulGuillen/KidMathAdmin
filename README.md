@@ -59,7 +59,6 @@ _*Mostrar gráfico de pastel por alumno, en base a sus operaciones.*_
 
 https://user-images.githubusercontent.com/43099030/171460860-347b847c-0b20-48e1-a6a5-2cec3ebc276e.mp4
 
---
 
 ## Autor ✒️
 
