@@ -13,7 +13,7 @@ _Este proyecto es parte del otro proyecto llamado [Math4kids](https://github.com
 
 ### Pre-requisitos 📋
 
-_Tener instalado Android Studio, conocer sobre kotlin, firebase auth , firebase store_
+_Tener instalado Android Studio, conocer sobre kotlin, firebase auth , firestore, realtime , storage._
 
 ```
 . MinSdk =  24
