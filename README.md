@@ -24,7 +24,7 @@ _Tener instalado Android Studio, conocer sobre kotlin, firebase auth , firestore
 
 ## Ejecutando los diseños ⚙️
 
-_En este panel de imágenes se muestra los resultados por alumnos registrados, ádemas de el historial por alumno registrado._
+_En este panel de imágenes se muestra los resultados por alumnos registrados, ádemas de el historial por alumno registrado con su respectivo nivel realizado_
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/43099030/171466601-b8c95cf1-275e-4e23-b580-c50701aab6b5.png"/>
