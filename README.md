@@ -1,6 +1,6 @@
 # KidMathAdmin
 
-_En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacion [Math4kids](https://github.com/PaulGuillen/KidMathKotlin), además de la visualización de los alumnos registrados con su respectivo gráfico de pastel para proceder analizar los resultados de los alumnos._
+_En este proyecto, se procede a mostrar los puntajes por alumno de la apliacacion [Math4kids](https://github.com/PaulGuillen/KidMathKotlin), además de la visualización de los alumnos registrados con su respectivo gráfico de pastel para proceder analizar los resultados de los alumnos, también muestra los resultados de los puntajes logrados, total de segundos jugandos, como un gráfico de pastel con porcentajes en decimal._
 
 ## Comenzando 🚀
 
